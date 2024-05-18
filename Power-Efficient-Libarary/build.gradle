@@ -5,13 +5,14 @@ plugins {
 
 android {
     namespace 'com.example.power_efficient_libarary'
-    compileSdk 34
+    compileSdk 32
 
     defaultConfig {
-        minSdk 30
+        minSdk 19
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+        targetSdk 32
     }
 
     buildTypes {
